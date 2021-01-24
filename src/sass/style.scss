@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import 'libs/bootstrap-reboot.min';
+
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+main {
+    background-color: #D3D3D3;
+    margin: 15px 5px;
+}
+
+@import 'blocks/header';
+@import 'blocks/photo';
+@import 'blocks/timeline';

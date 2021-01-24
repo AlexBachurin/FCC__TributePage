@@ -1,0 +1,18 @@
+.photo {
+    background-color: #fff;
+    margin: 0px 15px;
+    &__img {
+        padding: 15px 15px;
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+    &__descr {
+        text-align: center;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+}
